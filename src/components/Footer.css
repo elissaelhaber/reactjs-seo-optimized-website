@@ -1,0 +1,23 @@
+.footer {
+    background-color: #33658a; /* Footer background color */
+    color: white; /* Text color */
+    padding: 20px; /* Padding around the footer */
+    width: 100%; /* Full width */
+  }
+  
+  .footer-content {
+    max-width: 800px; /* Set a max width for the content */
+    margin: 0 auto; /* Center the content horizontally */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .footer-content h3 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.5rem; /* Font size for company name */
+  }
+  
+  .footer-content p {
+    margin: 5px 0; /* Spacing between lines */
+    font-size: 1rem; /* Font size for details */
+  }
+  

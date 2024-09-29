@@ -1,0 +1,63 @@
+.navbar {
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  position: sticky; /* Makes the menu stick to the top */
+  top: 0;
+  z-index: 1000; /* Ensure it's above other content */
+  min-height: 60px;  
+}
+  
+  .logo img {
+    height: 50px;  
+    width: auto;   /* Ensures that the aspect ratio is preserved */
+    max-height: 100%; /* Ensure it fits the navbar */
+  }
+  
+  /* Style for the menu items */
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px; /* Space between the menu items */
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white; 
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #33658a;
+  }
+  
+  /* Hero Section Styling */
+  .hero {
+    background: url('header-pos.png') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 60px;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+  }
+  
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  

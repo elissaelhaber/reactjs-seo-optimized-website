@@ -1,0 +1,34 @@
+#partners {
+    background-color: #33658a; 
+    padding: 50px;
+    text-align: center;
+}
+
+#partners h2 {
+    color: white; 
+    margin-bottom: 30px;
+}
+
+.partners-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between the boxes */
+}
+
+.partner-box {
+    background-color: white; 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for boxes */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Set fixed height for the boxes */
+}
+
+.partner-box img {
+    max-width: 100%; /* Ensure image takes up full width if it's too wide */
+    max-height: 100%; /* Ensure image takes up full height if it's too tall */
+    object-fit: contain; /* Resize image without distortion, keeping aspect ratio */
+    border-radius: 5px;
+}

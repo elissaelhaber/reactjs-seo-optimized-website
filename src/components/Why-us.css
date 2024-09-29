@@ -1,0 +1,51 @@
+#Why-us {
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+#why-us h2 {
+    color: #33658a; 
+}
+
+#why-us p {
+    color: black; 
+    font-weight: bold; 
+    font-size: 1.2rem; 
+}
+
+.table-container {
+    margin: 0 auto; 
+    max-width: 750px; 
+}
+
+.styled-table {
+    border-collapse: separate; /* Use separate borders */
+    border-spacing: 20px 20px; /* Space between cells */
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.styled-table th,
+.styled-table td {
+    background-color: #ffffff;
+    color: #333; /* Text color */
+    padding: 15px; /* Cell padding */
+    text-align: center;
+    border: 1px solid #33658a; 
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transitions */}
+
+
+.styled-table tr td:hover {
+    background-color: #f1f1f1; /* Hover effect on each cell */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+
+}
+
+
+.styled-table td::after {
+    content: none; /* Remove any pseudo-elements for borders */
+}

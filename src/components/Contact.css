@@ -1,0 +1,20 @@
+#contact {
+    text-align: center; 
+    margin: 50px 0;
+  }
+  
+  .contact-button {
+    display: inline-block; /* Make the link appear as a button */
+    padding: 10px 20px; 
+    background-color: #33658a; 
+    color: white; 
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1.2rem; 
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .contact-button:hover {
+    background-color: #0056b3; 
+  }
+  
